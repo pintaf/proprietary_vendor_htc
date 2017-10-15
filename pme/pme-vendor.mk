@@ -307,7 +307,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
     vendor/htc/pme/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/htc/pme/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
-    vendor/htc/pme/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
+    vendor/htc/pme/proprietary/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
     vendor/htc/pme/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/htc/pme/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/htc/pme/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -875,7 +875,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/htc/pme/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/htc/pme/proprietary/vendor/lib64/libril-qc-qmi-1-cdma.so:system/vendor/lib64/libril-qc-qmi-1-cdma.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libril-qc-qmi-1-default.so:system/vendor/lib64/libril-qc-qmi-1-default.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libril-qc-qmi-1-default.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/htc/pme/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/htc/pme/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/htc/pme/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
